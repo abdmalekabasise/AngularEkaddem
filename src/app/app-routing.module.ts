@@ -8,7 +8,8 @@ import { LoginComponent } from './Pages/login/login.component';
 
 const routes: Routes = [
   {path:'', redirectTo:"home", pathMatch:"full"},
-  {path:'formation', loadChildren: () => import('./Pages/formation-module/formation/formation.module').then(m=>m.FormationModule) },
+  {path:'formations', loadChildren: () => import('./Pages/formation-module/formation/formation.module').then(m=>m.FormationModule) },
+  {path:'universites', loadChildren: () => import('./Pages/universite/universite.module').then(m=>m.UniversiteModule) },
   {path:'home', component:HomeComponent},
   {path:'joinus', component:JoinusComponent},
   {path:'login', component:LoginComponent},
