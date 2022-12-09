@@ -9,6 +9,14 @@ import { FooterComponent } from './Components/footer/footer.component';
 import { HeroComponent } from './Pages/hero/hero.component';
 import { FormationComponent } from './Pages/formation/formation.component';
 import { HomeComponent } from './Pages/home/home.component';
+import { HttpClientModule } from '@angular/common/http';
+import { DepartementModuleModule } from './Pages/departement-module/departement-module.module';
+
+
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -18,11 +26,20 @@ import { HomeComponent } from './Pages/home/home.component';
     FooterComponent,
     HeroComponent,
     //FormationComponent,
-    HomeComponent
+    HomeComponent,
+ 
+  //  MyDemandesComponent,
+  //  JoinDepartementComponent,
+  
+   // DepartementDetailComponent,
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

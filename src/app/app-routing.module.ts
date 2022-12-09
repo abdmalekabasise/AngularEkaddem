@@ -6,6 +6,7 @@ import { HomeComponent } from './Pages/home/home.component';
 const routes: Routes = [
   {path:'', redirectTo:"home", pathMatch:"full"},
   {path:'formation', loadChildren: () => import('./Pages/formation-module/formation/formation.module').then(m=>m.FormationModule) },
+  {path:'departement', loadChildren: () => import('./Pages/departement-module/departement-module.module').then(m=>m.DepartementModuleModule) },
   {path:'home', component:HomeComponent},
 ];
 
