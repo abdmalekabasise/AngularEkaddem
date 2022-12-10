@@ -10,7 +10,10 @@ import { HeroComponent } from './Pages/hero/hero.component';
 import { FormationComponent } from './Pages/formation/formation.component';
 import { HomeComponent } from './Pages/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
-import { DepartementModuleModule } from './Pages/departement-module/departement-module.module';
+
+import { DashbordComponent } from './backOffice/dashbord/dashbord.component';
+import { NavbarBackooficeComponent } from './backOffice/navbar-backoofice/navbar-backoofice.component';
+import { FooterBackOfficeComponent } from './backOffice/footer-back-office/footer-back-office.component';
 
 
 
@@ -27,6 +30,9 @@ import { DepartementModuleModule } from './Pages/departement-module/departement-
     HeroComponent,
     //FormationComponent,
     HomeComponent,
+    DashbordComponent,
+    NavbarBackooficeComponent,
+    FooterBackOfficeComponent,
  
   //  MyDemandesComponent,
   //  JoinDepartementComponent,
