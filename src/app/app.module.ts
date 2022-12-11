@@ -9,7 +9,8 @@ import { FooterComponent } from './Components/footer/footer.component';
 import { HeroComponent } from './Pages/hero/hero.component';
 import { FormationComponent } from './Pages/formation/formation.component';
 import { HomeComponent } from './Pages/home/home.component';
-import { HttpClientModule } from '@angular/common/http';
+
+
 
 import { DashbordComponent } from './backOffice/dashbord/dashbord.component';
 import { NavbarBackooficeComponent } from './backOffice/navbar-backoofice/navbar-backoofice.component';
@@ -18,6 +19,13 @@ import { FooterBackOfficeComponent } from './backOffice/footer-back-office/foote
 
 
 
+
+
+import { JoinusComponent } from './Pages/joinus/joinus.component';
+import { LoginComponent } from './Pages/login/login.component';
+import { EditProfileComponent } from './Pages/edit-profile/edit-profile.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -30,6 +38,7 @@ import { FooterBackOfficeComponent } from './backOffice/footer-back-office/foote
     HeroComponent,
     //FormationComponent,
     HomeComponent,
+
     DashbordComponent,
     NavbarBackooficeComponent,
     FooterBackOfficeComponent,
@@ -39,14 +48,24 @@ import { FooterBackOfficeComponent } from './backOffice/footer-back-office/foote
   
    // DepartementDetailComponent,
    
+
+    JoinusComponent,
+    LoginComponent,
+    EditProfileComponent,
+
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
 
+
    
   ],
+
+      ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
