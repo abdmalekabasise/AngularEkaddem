@@ -26,6 +26,5 @@ export class HomeEquipeComponent implements OnInit {
   loadData():void{
     this.equipes$ = this.formService.getEquipes();
   }
-
 }
 

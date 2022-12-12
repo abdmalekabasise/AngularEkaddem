@@ -88,4 +88,7 @@ getBtnLabel(): string {
   return this.isUpdate() ? 'Modifier' : 'Enregistrer';
 }
 
+getLabelTitre() : string {
+  return this.isUpdate() ? 'Modification' : 'Ajout'
+}
 }

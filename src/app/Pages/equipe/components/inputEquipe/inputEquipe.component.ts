@@ -45,4 +45,14 @@ export class InputEquipeComponent implements OnInit {
 
   }
 
+  // getColor(equipe: EquipeModel):string{
+  //   switch(equipe.niveau){
+  //     case 'JUNIOR':
+  //       return 'red';
+  //     case 'SENIOR':
+  //       return  'yellow';  
+  //     case 'EXPERT':
+  //       return  'green';  
+  //   }
+  // }
 }
